@@ -28,7 +28,7 @@ class Server:
             self.s.bind((HOST, PORT))
 
             # listen for connection
-            self.s.listen(1)
+            self.s.listen(5)
 
             print("-" * 12+ "Server Running"+ "-" *21)
             

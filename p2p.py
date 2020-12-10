@@ -9,7 +9,8 @@ from server_client.server import Server
 """
 class p2p:
     # make ourself the default peer
-    peers = ['127.0.0.1']
+    peers = sys.argv
+    # peers = ['rasp-002','rasp-015','rasp-011','rasp-030']
 
 
 def main():
